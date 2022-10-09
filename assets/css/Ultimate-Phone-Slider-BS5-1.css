@@ -1,0 +1,91 @@
+#carousel-t {
+  background-color: rgba(221,226,237,0.42);
+}
+
+#carousel-t .contact-content {
+  margin-top: 15px;
+}
+
+#carousel-t .carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #140000;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .2;
+  transition: opacity .6s ease;
+  border-radius: 50%;
+}
+
+#carousel-t .carousel-indicators .active {
+  opacity: .5;
+}
+
+#carousel-t .carousel-indicators {
+  position: relative;
+  padding-bottom: 1em;
+}
+
+#carousel-t .signature {
+  font-size: 24px;
+  font-style: normal;
+  font-family: 'Roboto Condensed', Arial, Sans;
+  font-weight: 700;
+  margin: 0;
+}
+
+#carousel-t .date {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#carousel-t .rating {
+  background-color: #2d80ff;
+  width: 56px;
+  display: block;
+  margin: 15px auto;
+  color: white;
+  border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  .just-phone {
+    display: none;
+  }
+}
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: #ffffff00;
+  --bs-card-border-radius: 0px;
+  --bs-card-inner-border-radius: 0;
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+  --bs-card-bg: #fff;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+

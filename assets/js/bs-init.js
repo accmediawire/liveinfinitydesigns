@@ -1,6 +1,11 @@
-$(document).ready(function(){
-	AOS.init();
-	$('[data-bss-hover-animate]')
-		.mouseenter( function(){ var elem = $(this); elem.addClass('animated ' + elem.attr('data-bss-hover-animate')) })
-		.mouseleave( function(){ var elem = $(this); elem.removeClass('animated ' + elem.attr('data-bss-hover-animate')) });
-});
+
+if (window.innerWidth < 768) {
+	[].slice.call(document.querySelectorAll('[data-bss-disabled-mobile]')).forEach(function (elem) {
+		elem.classList.remove('animated');
+		elem.removeAttribute('data-bss-hover-animate');
+		elem.removeAttribute('data-aos');
+	});
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+}, false);

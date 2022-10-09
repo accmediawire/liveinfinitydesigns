@@ -1,0 +1,29 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .fit-cover {
+    object-fit: contain;
+  }
+}
+
+.inner-headin {
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .inner-headin {
+    font-size: 42px;
+    margin-bottom: 1em;
+  }
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+body {
+  font-family: 'Noto Sans';
+}
+
