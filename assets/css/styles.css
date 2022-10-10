@@ -1,11 +1,5 @@
-#banner-hero {
-  background: url("../../assets/img/Print_banner_new.jpg") center / cover no-repeat;
-  padding: 4em 2em;
-  margin-top: 5em;
-}
-
 .big-red {
-  background-color: #c01818;
+  background: linear-gradient(180deg,#ff1c1c 0,#c90063 100%);
 }
 
 .just-lg-md {
