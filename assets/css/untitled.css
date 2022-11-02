@@ -1,8 +1,13 @@
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(8rem + 80px);
   padding-bottom: 7rem;
   background: url("../../assets/img/7104455.png");
+  font-family: 'Jost';
+}
+
+body {
+  font-family: 'Jost';
 }
 
